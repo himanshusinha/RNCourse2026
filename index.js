@@ -11,5 +11,6 @@ import CommanStylesDemo from './src/styles/CommanStylesDemo';
 import StyledComponentDemo from './src/styles/StyledComponentDemo';
 import NativeWindDemo from './src/styles/NativeWindDemo';
 import CoreComponents from './src/core-components/CoreComponent';
+import FlexBoxDemo from './src/components/FlexBoxDemo';
 
-AppRegistry.registerComponent(appName, () => CoreComponents);
+AppRegistry.registerComponent(appName, () => FlexBoxDemo);
