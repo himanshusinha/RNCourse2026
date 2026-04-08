@@ -3,19 +3,22 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigations/types';
-import UseStateEx from '../hooks/UseStateEx';
-import CounterScreen from '../hooks/UseEffectHookDemo';
-import UseRefHook from '../hooks/UseRefHook';
-type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'Home'>;
 
-const HomeScreen = () => {
+type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'ScreenC'>;
+
+const ScreenC = () => {
+  const navigation = useNavigation<NavigationProp>();
+
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      {/* <UseStateEx /> */}
-      {/* <CounterScreen /> */}
-      <UseRefHook />
+      <Button
+        title="Go Back"
+        onPress={() => {
+          navigation.pop(2);
+        }}
+      />
     </View>
   );
 };
 
-export default HomeScreen;
+export default ScreenC;
