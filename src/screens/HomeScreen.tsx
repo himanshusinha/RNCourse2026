@@ -1,11 +1,8 @@
-import { View, Button } from 'react-native';
+import { View } from 'react-native';
 import React from 'react';
-import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigations/types';
-import UseStateEx from '../hooks/UseStateEx';
-import CounterScreen from '../hooks/UseEffectHookDemo';
-import UseRefHook from '../hooks/UseRefHook';
+import UseContextHookDemo from '../hooks/UseContextHookDemo';
 type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'Home'>;
 
 const HomeScreen = () => {
@@ -13,7 +10,8 @@ const HomeScreen = () => {
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       {/* <UseStateEx /> */}
       {/* <CounterScreen /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <UseContextHookDemo />
     </View>
   );
 };
