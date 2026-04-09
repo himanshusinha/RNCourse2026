@@ -11,7 +11,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		FD9D9E7C08436019F18B79B0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+=======
+		C1C2675D42BE3FE4D48FD1DE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+>>>>>>> 31c38e308ffe2f83aeb415cb098a98650599a57f
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,7 +164,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+<<<<<<< HEAD
 				FD9D9E7C08436019F18B79B0 /* PrivacyInfo.xcprivacy in Resources */,
+=======
+				C1C2675D42BE3FE4D48FD1DE /* PrivacyInfo.xcprivacy in Resources */,
+>>>>>>> 31c38e308ffe2f83aeb415cb098a98650599a57f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
